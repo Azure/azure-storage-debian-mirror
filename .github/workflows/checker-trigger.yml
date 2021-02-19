@@ -1,7 +1,7 @@
 name: Checker-Trigger
 
 on:
-  pull_request_review_comment:
+  pull_request:
 
 jobs:
   super-lint:
