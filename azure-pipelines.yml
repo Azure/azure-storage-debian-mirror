@@ -19,14 +19,6 @@ steps:
   displayName: 'Run a one-line script'
 
 - script: |
-    echo abc > test
-    git add test
-    git commit -m "test"
-    git checkout -b test
-    git push origin test
-  displayName: 'Test push'
-
-- script: |
     echo Add other tasks to build, test, and deploy your project.
     echo See https://aka.ms/yaml
   displayName: 'Run a multi-line script'
